@@ -16,12 +16,13 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(180, 226, 191);
     font-family: var(--fonte1);
+   
 }
 
 header {
-    background-image: linear-gradient(to top, rgb(187, 240, 187), rgb(46, 190, 82), rgb(9, 133, 138)
+    background-image: linear-gradient(to top, rgb(190, 238, 190),rgb(139, 216, 158), rgb(9, 133, 138)
     );
     color: white;
     text-align: center;
@@ -59,6 +60,8 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 1.3vw;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 section > p {
@@ -66,8 +69,9 @@ section > p {
 }
 
 section.normal {
-    background-color: rgb(187, 240, 187);
+    background-color: rgb(180, 226, 191);
     color: black;
+    
 
 }
 
